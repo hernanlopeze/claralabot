@@ -183,8 +183,8 @@ with col2:
 
         time.sleep(15)
         generate_vep()
-        if st.button("Comenzemos de nuevo"):
-            st.session_state.step = 'initial'
+        if st.button("Comencemos de nuevo"):
+            display_initial_options()
     
 
 
