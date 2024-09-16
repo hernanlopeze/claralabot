@@ -184,7 +184,7 @@ with col2:
         time.sleep(15)
         generate_vep()
         if st.button("Comencemos de nuevo"):
-            st.session_state.step == 'initial'
+            st.session_state.step = 'initial'
             st.session_state.video = "initial.mp4" 
     
 
