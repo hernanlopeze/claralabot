@@ -142,7 +142,7 @@ with col1:
 
         # Ajuste para que el video tenga un tamaño de 800x800 píxeles
         video_html = f'''
-        <center><button id="playButton" onclick="playVideo()">Escuchar de nuevo</button></center>
+        <center><button id="playButton" onclick="playVideo()">Comenzar/Escuchar de nuevo</button></center>
         <div style="display: flex; justify-content: center;">
             <video id="myVideo" width="800" height="800" style="object-fit: cover;">
                 <source src="{video_data_url}" type="video/mp4">
