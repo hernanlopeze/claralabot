@@ -4,8 +4,7 @@ import time
 import streamlit.components.v1 as components
 import base64
 
-st.set_page_config(layout="wide")
-st.set_page_config(page_title="Clara Labot", page_icon=":coffee:")
+st.set_page_config(layout="wide",page_title="Clara Labot", page_icon=":coffee:")
 
 
 
